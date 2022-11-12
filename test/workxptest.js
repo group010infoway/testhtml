@@ -1,4 +1,4 @@
-const {Builder, By, Key} = require("chromedriver_win32/selenium-webdriver");
+const {Builder, By, Key} = require("../chromedriver_win32/selenium-webdriver");
 //const assert = require("assert");
 const { strict, strictEqual } = require("assert");
 var should = require("chai").should() // only for should use .should() not needed for assert and expect from chai
